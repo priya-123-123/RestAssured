@@ -1,10 +1,9 @@
 package com;
 
-import static io.restassured.RestAssured.baseURI;
-import static io.restassured.RestAssured.given;
+
 
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+
 
 public class TestDataProviderClass {
 	@DataProvider(name = "DataForPost")
